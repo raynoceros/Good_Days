@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="75dp"
+    android:background="#ffffff">
+
+    <TextView
+    android:layout_width="0dp"
+    android:layout_height="0dp"
+    android:id="@+id/record_id"
+
+        />
+
+    <TextView
+        android:layout_width="220dp"
+        android:layout_height="40dp"
+        android:id="@+id/dates_name"
+        android:layout_alignParentLeft="true"
+        android:text="here is the event name "
+        android:textColor="#000000"
+        android:gravity="center"
+        android:textSize="20dp"/>
+    <TextView
+        android:layout_width="220dp"
+        android:id="@+id/end_date"
+        android:layout_height="25dp"
+        android:text="2014-04-14"
+        android:gravity="center"
+        android:textStyle="italic"
+        android:layout_below="@+id/dates_name"
+        android:layout_alignParentStart="true" />
+    <TextView
+        android:layout_width="70dp"
+        android:layout_height="match_parent"
+        android:id="@+id/dates_days"
+        android:text="36500"
+        android:gravity="center"
+        android:textSize="24dp"
+        android:textStyle="bold|italic"
+        android:textColor="#0C7489"
+        android:layout_toEndOf="@+id/dates_name" />
+    <TextView
+        android:layout_width="50dp"
+        android:layout_marginLeft="4dp"
+        android:layout_height="match_parent"
+        android:text="days"
+        android:textSize="24dp"
+        android:textStyle="bold|italic"
+        android:gravity="center"
+        android:textColor="#0C7489"
+        android:layout_toEndOf="@id/dates_days"
+        />
+
+</RelativeLayout>

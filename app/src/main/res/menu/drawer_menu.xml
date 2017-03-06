@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu    xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/days_id"
+            android:title="Days"
+            android:onClick="days_onClick"
+            android:icon="@drawable/calender_icon"
+            ></item>
+        <item
+            android:id="@+id/date_calculator_id"
+            android:title="Date Calculator"
+            android:onClick="date_calculator_onClick"
+            android:icon="@drawable/time_icon"
+            ></item>
+        <item
+            android:id="@+id/about_id"
+            android:title="About"
+            android:onClick="about_onClick"
+            android:icon="@drawable/about_icon"
+            ></item>
+        <item
+            android:id="@+id/setting_id"
+            android:title="Settings"
+            android:onClick="settings_onClick"
+            android:icon="@drawable/setting_icon"
+            ></item>
+    </group>
+
+</menu>
